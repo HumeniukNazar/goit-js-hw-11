@@ -13,8 +13,8 @@ const loader = document.querySelector('.loading');
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    cleanGallery(); //  очищуєм галерею
-    loader.classList.remove('hidden') // прибираємо клас прихованого спану
+    cleanGallery();
+    loader.classList.remove('hidden')
 
     const query = input.value.trim();
     if (query === '') {
